@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <div>
+    <center>
+        <form>
+            <lable> Username</lable>
+            <input type="text" value="Enter your name">
+            <input type="submit" value="Login">
+        </form>
+    </center>
+    </div>
+    <div>
+        <center>
+        <form>
+        <input type="text" placeholder="your name"><br>
+        <input type="email" placeholder="your email"><br>
+        <input type="password" placeholder="password"><br>
+        </form>
+        </center>
+    </div>
+       <div>
+        <center>
+        <form>
+            <p>Select Gender:</p>
+            <input type="radio" name="Gender" value="male">
+            <lable>male</lable><br>
+            <input type="radio" name="Gender" value="female">
+            <lable>female</lable>
+        </form>
+        </center>
+    </div>
+    <div>
+        <center>
+            <form>
+                <p>Select skills</p>
+                <input type="checkbox" id="html" name = "skills"value="HTML">
+                <lable>HTML</lable><br>
+                <input type="checkbox" id="css" name = "skills" value="CSS">
+                <lable>CSS</lable>
+            </form>
+        </center>
+    </div>
+    <div>
+        <center>
+        <form>
+            <lable> Select Country</lable>
+            <select>
+                <option>choose option</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Other</option>
+            </select>
+        </form>
+        </center>
+    </div>
+    <div>
+        <center>
+            <button type="button"onclick="alert("clicked")">Click Me</button>
+        </center>
+    </div>
+    <div>
+        <center>
+        <select Multiple>
+            <option> Python</option>
+            <option> Java</option>
+        </select>
+        </center>
+    </div>
+</body>
+</html>
